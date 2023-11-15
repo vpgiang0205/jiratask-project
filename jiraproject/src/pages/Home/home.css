@@ -1,0 +1,20 @@
+.avatar-container {
+  position: relative;
+}
+
+.member-name {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  visibility: hidden;
+  background-color: #fff;
+  padding: 8px;
+  border-radius: 4px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  white-space: nowrap;
+}
+
+.avatar-container:hover .member-name {
+  visibility: visible;
+}
